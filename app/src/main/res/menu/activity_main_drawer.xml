@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/hello" >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@drawable/ic_baseline_fiber_smart_record_24"
+            android:title="Community" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info"
+            android:title="About Us" />
+        <!--
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/star"
+            android:title="Rate us" />-->
+
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_baseline_help"
+            android:title="Help" />
+        <!--
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share"
+            android:title="Share App" />-->
+
+
+
+
+    </group>
+    <group android:id="@+id/hello2">
+
+        <item
+            android:id="@+id/nav_logout"
+            android:orderInCategory="100"
+            app:showAsAction="never"
+            android:icon="@drawable/ic_baseline_account"
+            android:title="Log out" />
+
+    </group>
+</menu>

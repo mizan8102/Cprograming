@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".IntroductionActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="320dp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="25dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+           android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/microphone"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Introduce to C "
+                android:fontFamily="@font/greatvibes"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/colorAccent"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+            <ng.max.slideview.SlideView
+                android:id="@+id/slideViewwhat"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sv_buttonBackgroundColor="#fff"
+                app:sv_buttonImage="@drawable/ic_baseline_double_arrow_24"
+                app:sv_slideBackgroundColor="#EDEDED"
+                android:elevation="12dp"
+                app:sv_slideText="@string/c_info"
+                app:sv_strokeColor="@color/colorAccent"
+                app:sv_slideTextColor="@color/colorAccent" />
+
+            <ng.max.slideview.SlideView
+                android:id="@+id/slideViewhis"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sv_buttonBackgroundColor="#fff"
+                android:elevation="12dp"
+                app:sv_buttonImage="@drawable/ic_baseline_double_arrow_24"
+                app:sv_slideBackgroundColor="#EDEDED"
+                app:sv_slideText="@string/c_his"
+                app:sv_strokeColor="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                app:sv_slideTextColor="@color/colorAccent" />
+
+
+            <ng.max.slideview.SlideView
+                android:id="@+id/slideViewfeature"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:sv_buttonBackgroundColor="#fff"
+                android:elevation="12dp"
+                app:sv_buttonImage="@drawable/ic_baseline_double_arrow_24"
+                app:sv_slideBackgroundColor="#EDEDED"
+                app:sv_slideText="@string/c_fea"
+                app:sv_strokeColor="@color/colorAccent"
+                android:layout_marginTop="10dp"
+                app:sv_slideTextColor="@color/colorAccent" />
+
+
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

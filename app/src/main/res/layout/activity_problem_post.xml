@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".SharingCenter.ProblemPostActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:id="@+id/lean"
+       android:layout_centerHorizontal="true">
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="From Gallary"
+            android:textSize="8sp"
+            android:elevation="8dp"
+            android:id="@+id/fromselectgallary"
+            android:textColor="@android:color/white"
+           android:drawableLeft="@drawable/ic_menu_gallery"
+            android:backgroundTint="#C7C8CA"
+           />
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:text="From Camera"
+            android:textSize="8sp"
+            android:elevation="8dp"
+            android:id="@+id/fromselectcamera"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/white"
+            android:drawableLeft="@drawable/ic_menu_camera"
+            android:backgroundTint="#C7C8CA"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/lean">
+        <studio.carbonylgroup.textfieldboxes.TextFieldBoxes
+            android:id="@+id/text_field_boxes"
+            android:layout_width="match_parent"
+           android:layout_margin="30dp"
+            android:layout_height="wrap_content"
+            app:labelText="Decription"
+            >
+
+            <studio.carbonylgroup.textfieldboxes.ExtendedEditText
+                android:id="@+id/extended_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Write your problem details"
+                />
+
+        </studio.carbonylgroup.textfieldboxes.TextFieldBoxes>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="250dp"
+           android:layout_gravity="center_horizontal"
+            android:id="@+id/postactivitypic"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_backgroud"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Save"
+            android:id="@+id/postsave"
+            android:textColor="@android:color/white"
+           />
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/postProgress"
+            android:visibility="invisible"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

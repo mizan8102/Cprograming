@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708069932593",
+    "firebase_url": "https://cprograming-472a5.firebaseio.com",
+    "project_id": "cprograming-472a5",
+    "storage_bucket": "cprograming-472a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708069932593:android:481946ff10473887405f10",
+        "android_client_info": {
+          "package_name": "com.programing.cprograming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708069932593-i9io777j7teivej8232n78kkmmk8fp4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8zf_kz1enpIK5e5vk6fsyC-Uoc0Otm40"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708069932593-i9io777j7teivej8232n78kkmmk8fp4h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

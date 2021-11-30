@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   Beginner Tips Title     -->
+    <string-array name="interview_title">
+        <item>What is pointer on a pointer?</item>
+        <item>What is keyword auto for?</item>
+        <item>What is a NULL pointer in C?</item>
+    </string-array>
+
+    <!--   Beginner Description      -->
+    <string-array name="interview_des">
+        <item>It’s a pointer variable which can hold the address of another pointer variable. It de-refers twice to point to the data held by the designated pointer variable.
+           \n\n Example: int x = 5, *p=&amp;x, **q=&amp;p;
+            \nTherefore ‘x’ can be accessed by **q.</item>
+        <item>By default every local variable of the function is automatic (auto). In the below function both the variables ‘i’ and ‘j’ are automatic variables.
+        \n\nvoid f() {
+   int i;\n
+   auto int j;
+}\n
+NOTE − A global variable can’t be an automatic variable.
+        </item>
+        <item>A pointer that doesnt refer to any address of value but NULL is known as a NULL pointer. When we assign a 0 value to a pointer of any type, then it becomes a Null pointer.</item>
+    </string-array>
+
+
+
+
+
+</resources>

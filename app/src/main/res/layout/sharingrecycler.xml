@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:elevation="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        app:cardElevation="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/socialphoto"
+                    android:src="@drawable/info"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mizanur Rahman"
+                    android:id="@+id/socialname"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@android:color/black"
+                   android:layout_gravity="center"
+                   />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/postphoto"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:paddingLeft="15dp"
+                    android:id="@+id/postdescription"
+                    android:text=""
+                    android:textSize="16dp"
+                    android:fontFamily="@font/proximanovaregular"
+                    android:textColor="@color/color" />
+
+            </LinearLayout>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="right"
+                android:background="#37A7EA"
+                android:textColor="#ffff"
+                android:textSize="10sp"
+                android:text="Soluation"
+                android:id="@+id/txtsolutionbtb"
+                android:elevation="15dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

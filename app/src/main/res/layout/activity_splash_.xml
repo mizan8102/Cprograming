@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/colorAccent"
+tools:context=".Splash_Activity">
+
+
+        <com.smarteist.autoimageslider.SliderView
+            android:id="@+id/imageSlider"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_centerInParent="true"
+            app:sliderAnimationDuration="600"
+            app:sliderAutoCycleDirection="back_and_forth"
+            app:sliderAutoCycleEnabled="true"
+            app:sliderIndicatorAnimationDuration="600"
+            android:layout_gravity="center"
+            app:sliderIndicatorGravity="center_horizontal|bottom"
+            app:sliderIndicatorMargin="15dp"
+            app:sliderIndicatorOrientation="horizontal"
+            app:sliderIndicatorPadding="3dp"
+            app:sliderIndicatorRadius="2dp"
+            app:sliderIndicatorSelectedColor="#FFEB3B"
+            app:sliderIndicatorUnselectedColor="#3F51B5"
+            app:sliderScrollTimeInSec="1"
+            app:sliderStartAutoCycle="true" />
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#681AF1"
+                app:cardCornerRadius="20dp"
+            android:id="@+id/startedwork"
+            app:cardElevation="15dp"
+            android:layout_below="@id/detailsutc"
+          android:layout_centerHorizontal="true"
+            android:layout_marginBottom="65dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+
+                    android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Get Started"
+                            android:textStyle="bold"
+                                android:textColor="#FFFFFF"
+                            android:layout_gravity="center_vertical"
+                                android:textSize="20dp"/>
+
+
+
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+           android:layout_below="@id/imageSlider"
+            app:cardBackgroundColor="#FFEB3B"
+            app:cardCornerRadius="20dp"
+            android:id="@+id/detailsutc"
+            android:layout_centerHorizontal="true"
+            app:cardElevation="15dp"
+
+            >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Go Premium"
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:layout_gravity="center_vertical"
+                            android:textSize="20dp"/>
+
+
+
+                </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>

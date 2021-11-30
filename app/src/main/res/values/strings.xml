@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Coding Hero</string>
+    <string name="title_activity_main_home">MainHomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Introduction Details-->
+    <string name="c_info">What is C language?</string>
+    <string name="c_his">History of C programing?</string>
+    <string name="c_fea">Features of C Programme?</string>
+    <string name="c_def">C is a general-purpose programming language that is extremely popular, simple and flexible. It is machine-independent, structured programming language which is used extensively in various applications.C was the basic language to write everything from operating systems (Windows and many others) to complex programs like the Oracle database, Git, Python interpreter and more.</string>
+    <string name="c_def_history">History of C language is interesting to know. Here we are going to discuss a brief history of the c language.C programming language was developed in 1972 by Dennis Ritchie at bell laboratories of AT and T (American Telephone and Telegraph), located in the U.S.A.Dennis Ritchie is known as the founder of the c language.The C programming language came out of Bell Labs in the early 1970s. According to the Bell Labs paper The Development of the C Language by Dennis Ritchie, “The C programming language was devised in the early 1970s as a system implementation language for the nascent Unix operating system. Derived from the typeless language BCPL, it evolved a type structure; created on a tiny machine as a tool to improve a meager programming environment.” Originally, Ken Thompson, a Bell Labs employee, desired to make a programming language for the new Unix platform. Thompson modified the BCPL system language and created B. However, not many utilities were ever written in B due to its slow nature and inability to take a vantage of PDP-11 features in the operating system. This led to Ritchie improving on B, and thus creating C.</string>
+    <string name="c_def_feature">C language have many features that provides given below:\n\n
+        1.Simple\n
+        2.Machine Independent or Portable\n
+        3.Mid-level programming language\n
+        4.structured programming language\n
+        5.Rich Library\n
+        6.Memory Management\n
+        7.Fast Speed\n
+        8.Pointers\n
+        9.Recursion\n
+        10.Extensible
+    </string>
+    <!-- Introduction Details End-->
+
+    <string name="myin">I am Mizanur Rahman.I am form Feni.I continue my study with Computer Science Engineering (CSE) from Feni Polytechnic Institute.I have skilled in planning, designing, developing, implementing, debugging and troubleshooting mobile applications using Android. Also, I am good in object oriented programming, Core Java, C, Android framework &amp; SDK, and Android Studio.</string>
+
+
+    <string name="email">mizan81025@gmail.com</string>
+
+</resources>

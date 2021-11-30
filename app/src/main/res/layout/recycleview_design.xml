@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   >
+    <ng.max.slideview.SlideView
+        android:id="@+id/txtdata"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        app:sv_slideTextSize="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:sv_buttonBackgroundColor="#fff"
+        app:sv_buttonImage="@drawable/ic_baseline_double_arrow_24"
+        app:sv_slideBackgroundColor="@color/colorAccent"
+        android:elevation="12dp"
+        app:sv_slideTextColor="#FFFFFF" />
+
+
+</LinearLayout>
